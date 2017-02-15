@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41A2A25E1E4A5DA10040A527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2A25D1E4A5DA10040A527 /* AppDelegate.swift */; };
+		41A2A2601E4A5DA10040A527 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2A25F1E4A5DA10040A527 /* ViewController.swift */; };
+		41A2A2651E4A5DA20040A527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A2A2641E4A5DA20040A527 /* Assets.xcassets */; };
+		41A2A2731E4A5DA20040A527 /* DaedalusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2A2721E4A5DA20040A527 /* DaedalusTests.swift */; };
+		41A2A27E1E4A5DA20040A527 /* DaedalusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2A27D1E4A5DA20040A527 /* DaedalusUITests.swift */; };
+		41A2A28C1E4A70E30040A527 /* MazeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2A28B1E4A70E30040A527 /* MazeView.swift */; };
+		41A2A28E1E4CBBCB0040A527 /* MazeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2A28D1E4CBBCA0040A527 /* MazeExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41A2A26F1E4A5DA20040A527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41A2A2521E4A5DA10040A527 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41A2A2591E4A5DA10040A527;
+			remoteInfo = Daedalus;
+		};
+		41A2A27A1E4A5DA20040A527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41A2A2521E4A5DA10040A527 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41A2A2591E4A5DA10040A527;
+			remoteInfo = Daedalus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41A2A25A1E4A5DA10040A527 /* Daedalus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daedalus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A2A25D1E4A5DA10040A527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41A2A25F1E4A5DA10040A527 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41A2A2641E4A5DA20040A527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41A2A2691E4A5DA20040A527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A2A26E1E4A5DA20040A527 /* DaedalusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaedalusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A2A2721E4A5DA20040A527 /* DaedalusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaedalusTests.swift; sourceTree = "<group>"; };
+		41A2A2741E4A5DA20040A527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A2A2791E4A5DA20040A527 /* DaedalusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaedalusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A2A27D1E4A5DA20040A527 /* DaedalusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaedalusUITests.swift; sourceTree = "<group>"; };
+		41A2A27F1E4A5DA20040A527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A2A28B1E4A70E30040A527 /* MazeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MazeView.swift; sourceTree = "<group>"; };
+		41A2A28D1E4CBBCA0040A527 /* MazeExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MazeExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41A2A2571E4A5DA10040A527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A2A26B1E4A5DA20040A527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A2A2761E4A5DA20040A527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41A2A2511E4A5DA10040A527 = {
+			isa = PBXGroup;
+			children = (
+				41A2A25C1E4A5DA10040A527 /* Daedalus */,
+				41A2A2711E4A5DA20040A527 /* DaedalusTests */,
+				41A2A27C1E4A5DA20040A527 /* DaedalusUITests */,
+				41A2A25B1E4A5DA10040A527 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41A2A25B1E4A5DA10040A527 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41A2A25A1E4A5DA10040A527 /* Daedalus.app */,
+				41A2A26E1E4A5DA20040A527 /* DaedalusTests.xctest */,
+				41A2A2791E4A5DA20040A527 /* DaedalusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41A2A25C1E4A5DA10040A527 /* Daedalus */ = {
+			isa = PBXGroup;
+			children = (
+				41A2A25D1E4A5DA10040A527 /* AppDelegate.swift */,
+				41A2A25F1E4A5DA10040A527 /* ViewController.swift */,
+				41A2A28B1E4A70E30040A527 /* MazeView.swift */,
+				41A2A28D1E4CBBCA0040A527 /* MazeExtensions.swift */,
+				41A2A2641E4A5DA20040A527 /* Assets.xcassets */,
+				41A2A2691E4A5DA20040A527 /* Info.plist */,
+			);
+			path = Daedalus;
+			sourceTree = "<group>";
+		};
+		41A2A2711E4A5DA20040A527 /* DaedalusTests */ = {
+			isa = PBXGroup;
+			children = (
+				41A2A2721E4A5DA20040A527 /* DaedalusTests.swift */,
+				41A2A2741E4A5DA20040A527 /* Info.plist */,
+			);
+			path = DaedalusTests;
+			sourceTree = "<group>";
+		};
+		41A2A27C1E4A5DA20040A527 /* DaedalusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41A2A27D1E4A5DA20040A527 /* DaedalusUITests.swift */,
+				41A2A27F1E4A5DA20040A527 /* Info.plist */,
+			);
+			path = DaedalusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41A2A2591E4A5DA10040A527 /* Daedalus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A2A2821E4A5DA20040A527 /* Build configuration list for PBXNativeTarget "Daedalus" */;
+			buildPhases = (
+				41A2A2561E4A5DA10040A527 /* Sources */,
+				41A2A2571E4A5DA10040A527 /* Frameworks */,
+				41A2A2581E4A5DA10040A527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Daedalus;
+			productName = Daedalus;
+			productReference = 41A2A25A1E4A5DA10040A527 /* Daedalus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41A2A26D1E4A5DA20040A527 /* DaedalusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A2A2851E4A5DA20040A527 /* Build configuration list for PBXNativeTarget "DaedalusTests" */;
+			buildPhases = (
+				41A2A26A1E4A5DA20040A527 /* Sources */,
+				41A2A26B1E4A5DA20040A527 /* Frameworks */,
+				41A2A26C1E4A5DA20040A527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41A2A2701E4A5DA20040A527 /* PBXTargetDependency */,
+			);
+			name = DaedalusTests;
+			productName = DaedalusTests;
+			productReference = 41A2A26E1E4A5DA20040A527 /* DaedalusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41A2A2781E4A5DA20040A527 /* DaedalusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A2A2881E4A5DA20040A527 /* Build configuration list for PBXNativeTarget "DaedalusUITests" */;
+			buildPhases = (
+				41A2A2751E4A5DA20040A527 /* Sources */,
+				41A2A2761E4A5DA20040A527 /* Frameworks */,
+				41A2A2771E4A5DA20040A527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41A2A27B1E4A5DA20040A527 /* PBXTargetDependency */,
+			);
+			name = DaedalusUITests;
+			productName = DaedalusUITests;
+			productReference = 41A2A2791E4A5DA20040A527 /* DaedalusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41A2A2521E4A5DA10040A527 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ericeddy;
+				TargetAttributes = {
+					41A2A2591E4A5DA10040A527 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M4Q654286R;
+						ProvisioningStyle = Automatic;
+					};
+					41A2A26D1E4A5DA20040A527 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M4Q654286R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 41A2A2591E4A5DA10040A527;
+					};
+					41A2A2781E4A5DA20040A527 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M4Q654286R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 41A2A2591E4A5DA10040A527;
+					};
+				};
+			};
+			buildConfigurationList = 41A2A2551E4A5DA10040A527 /* Build configuration list for PBXProject "Daedalus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41A2A2511E4A5DA10040A527;
+			productRefGroup = 41A2A25B1E4A5DA10040A527 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41A2A2591E4A5DA10040A527 /* Daedalus */,
+				41A2A26D1E4A5DA20040A527 /* DaedalusTests */,
+				41A2A2781E4A5DA20040A527 /* DaedalusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41A2A2581E4A5DA10040A527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A2A2651E4A5DA20040A527 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A2A26C1E4A5DA20040A527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A2A2771E4A5DA20040A527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41A2A2561E4A5DA10040A527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A2A28E1E4CBBCB0040A527 /* MazeExtensions.swift in Sources */,
+				41A2A28C1E4A70E30040A527 /* MazeView.swift in Sources */,
+				41A2A2601E4A5DA10040A527 /* ViewController.swift in Sources */,
+				41A2A25E1E4A5DA10040A527 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A2A26A1E4A5DA20040A527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A2A2731E4A5DA20040A527 /* DaedalusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A2A2751E4A5DA20040A527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A2A27E1E4A5DA20040A527 /* DaedalusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41A2A2701E4A5DA20040A527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41A2A2591E4A5DA10040A527 /* Daedalus */;
+			targetProxy = 41A2A26F1E4A5DA20040A527 /* PBXContainerItemProxy */;
+		};
+		41A2A27B1E4A5DA20040A527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41A2A2591E4A5DA10040A527 /* Daedalus */;
+			targetProxy = 41A2A27A1E4A5DA20040A527 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41A2A2801E4A5DA20040A527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41A2A2811E4A5DA20040A527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41A2A2831E4A5DA20040A527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M4Q654286R;
+				INFOPLIST_FILE = Daedalus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.Daedalus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		41A2A2841E4A5DA20040A527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M4Q654286R;
+				INFOPLIST_FILE = Daedalus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.Daedalus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		41A2A2861E4A5DA20040A527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M4Q654286R;
+				INFOPLIST_FILE = DaedalusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.DaedalusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daedalus.app/Daedalus";
+			};
+			name = Debug;
+		};
+		41A2A2871E4A5DA20040A527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M4Q654286R;
+				INFOPLIST_FILE = DaedalusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.DaedalusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daedalus.app/Daedalus";
+			};
+			name = Release;
+		};
+		41A2A2891E4A5DA20040A527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M4Q654286R;
+				INFOPLIST_FILE = DaedalusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.DaedalusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Daedalus;
+			};
+			name = Debug;
+		};
+		41A2A28A1E4A5DA20040A527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M4Q654286R;
+				INFOPLIST_FILE = DaedalusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.DaedalusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Daedalus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41A2A2551E4A5DA10040A527 /* Build configuration list for PBXProject "Daedalus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A2A2801E4A5DA20040A527 /* Debug */,
+				41A2A2811E4A5DA20040A527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A2A2821E4A5DA20040A527 /* Build configuration list for PBXNativeTarget "Daedalus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A2A2831E4A5DA20040A527 /* Debug */,
+				41A2A2841E4A5DA20040A527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41A2A2851E4A5DA20040A527 /* Build configuration list for PBXNativeTarget "DaedalusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A2A2861E4A5DA20040A527 /* Debug */,
+				41A2A2871E4A5DA20040A527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41A2A2881E4A5DA20040A527 /* Build configuration list for PBXNativeTarget "DaedalusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A2A2891E4A5DA20040A527 /* Debug */,
+				41A2A28A1E4A5DA20040A527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41A2A2521E4A5DA10040A527 /* Project object */;
+}
